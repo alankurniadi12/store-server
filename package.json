@@ -1,0 +1,21 @@
+{
+  "name": "store-server",
+  "version": "1.0.0",
+  "description": "store server just for practis",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "vue",
+    "node"
+  ],
+  "author": "Alan K",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.19.1"
+  }
+}
