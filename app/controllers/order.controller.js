@@ -11,7 +11,7 @@ exports.findOrder = (req, res) => {
     }, {
         $lookup: {
             from: "products",
-            lacalField: "cart_item",
+            localField: "cart_items",
             foreignField: "code",
             as: "products"
         }
